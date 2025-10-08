@@ -38,7 +38,9 @@ LCM_Puzzle_Assignment/
 ├── style.css       → Styling for rods, buttons, hints, etc.
 ├── script.js       → Drag-drop functionality, hints, animations
 └── README.docx     → This file
+
 Example Code Snippets
+
 Dragging a correct block into Rod 3:
 if (selectedBlockValue === correctLCM) {
     rod3.appendChild(selectedBlock);
@@ -46,7 +48,9 @@ if (selectedBlockValue === correctLCM) {
 } else {
     alert('❌ Not correct, try again!');
 }
+
 Random Example button:
+
 function randomExample() {
     let a = Math.floor(Math.random() * 8) + 2;
     let b = Math.floor(Math.random() * 8) + 2;
