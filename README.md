@@ -1,8 +1,13 @@
  LCM Puzzle – Interactive Learning Game
+ 
 Author: Manonmani .M
+
 Topic: Least Common Multiple (LCM)
+
 Target Students: Grades 4–7
+
 Overview
+
 This is an interactive puzzle game designed to teach students the concept of LCM (Least Common Multiple) in a fun, engaging, and visual way.
 
 Students can:
