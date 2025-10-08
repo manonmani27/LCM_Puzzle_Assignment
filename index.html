@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🎮 LCM Puzzle Builder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Intro Slide -->
+  <div class="slide" id="introSlide">
+    <h1>🎯 Learn LCM with Fun!</h1>
+    <p>The <b>LCM (Least Common Multiple)</b> is the smallest number that is a multiple of both numbers.</p>
+    <p>Drag the correct multiples from Rod 1 & Rod 2 into Rod 3 to complete the LCM rod.</p>
+    <button id="startBtn">Start Puzzle</button>
+  </div>
+
+  <!-- Game Slide -->
+  <div class="slide" id="gameSlide" style="display:none;">
+    <h2>🧩 LCM Puzzle – Drag Correct Multiples!</h2>
+    <div class="game-container">
+      <div class="rods-container">
+        <div class="inputs">
+          <input type="number" id="num1" min="1" placeholder="Number 1">
+          <input type="number" id="num2" min="1" placeholder="Number 2">
+          <button id="generateBtn">Generate Rods</button>
+          <button id="randomBtn">🎲 Random Example</button>
+        </div>
+
+        <div class="rod-area">
+          <div class="rod" id="rod1"></div>
+          <div class="rod" id="rod2"></div>
+          <div class="rod" id="rod3"></div>
+        </div>
+
+        <div id="message"></div>
+      </div>
+
+      <!-- Hints Sidebar -->
+      <div class="hints">
+        <h3>💡 Hints</h3>
+        <ul>
+          <li>The first block in Rod 3 is the <b>LCM</b>.</li>
+          <li>Drag only numbers that appear in <b>both Rod 1 & Rod 2</b>.</li>
+          <li>Incorrect blocks will be rejected — try again!</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Completion Slide -->
+  <div class="slide" id="completionSlide" style="display:none;">
+    <h1>🎉 Congratulations!</h1>
+    <p>You completed the LCM puzzle!</p>
+    <div class="completion-buttons">
+      <button id="continueBtn">Continue</button>
+      <button id="quitBtn">Quit</button>
+    </div>
+  </div>
+
+  <canvas class="confetti"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>
