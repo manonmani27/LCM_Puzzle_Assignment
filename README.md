@@ -82,7 +82,10 @@ function randomExample() {
 Click the link below to watch a demo of the game in action:  
 
 [Download the LCM Puzzle Video] https://github.com/manonmani27/LCM_Puzzle_Assignment/blob/master/lcm%20puzzle.mp4 
-[watch the video] https://drive.google.com/file/d/1n7U-N0TOQ0UwaSjL1LnEtIUIPp6Jyx_a/view?usp=sharing
+
+[LCM Puzzle Demo]       
+https://drive.google.com/file/d/1n7U-N0TOQ0UwaSjL1LnEtIUIPp6Jyx_a/view?usp=sharing
+
 
 How to Use
 - Make sure index.html, style.css, and script.js are in the same folder.
