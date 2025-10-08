@@ -81,7 +81,7 @@ function randomExample() {
 ## 🎥 Interactive Demo
 Click the link below to watch a demo of the game in action:  
 
-[Watch the LCM Puzzle Video] https://github.com/manonmani27/LCM_Puzzle_Assignment/blob/master/lcm%20puzzle.mp4 
+[Download the LCM Puzzle Video] https://github.com/manonmani27/LCM_Puzzle_Assignment/blob/master/lcm%20puzzle.mp4 
 
 How to Use
 - Make sure index.html, style.css, and script.js are in the same folder.
