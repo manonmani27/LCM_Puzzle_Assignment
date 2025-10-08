@@ -10,6 +10,7 @@ Students can:
 - See multiples of each number visually on Rod 1 and Rod 2.
 - Drag the correct multiples into Rod 3 to complete the LCM puzzle.
 - Receive hints, sound effects, and confetti animation for correct answers.
+  
 Features
 - Drag-and-drop interactive puzzle
 - Hints sidebar for guidance
@@ -17,6 +18,7 @@ Features
 - Confetti & sound effects for correct answers
 - Continue/Quit options after completing a puzzle
 - Responsive design for desktops and tablets
+  
 Instructions
 1. Open index.html in a modern browser (Chrome, Edge, Firefox).
 2. Enter two numbers or click Random Example.
@@ -28,6 +30,7 @@ Hints:
 - Rod 1: multiples of the first number
 - Rod 2: multiples of the second number
 - Rod 3: common multiples → drag only the correct blocks
+  
 File Structure
 LCM_Puzzle_Assignment/
 │
@@ -51,8 +54,10 @@ function randomExample() {
     document.getElementById('num2').value = b;
     buildRods();
 }
+
 How to Use
 - Make sure index.html, style.css, and script.js are in the same folder.
 - Open index.html → start learning LCM interactively!
 - Enjoy hints, animations, and confetti feedback! 🎉
+  
 Made with 💜 to make math fun and engaging for students.
