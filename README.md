@@ -39,9 +39,13 @@ Hints:
 File Structure
 LCM_Puzzle_Assignment/
 │
+
 ├── index.html      → Main HTML file
+
 ├── style.css       → Styling for rods, buttons, hints, etc.
-├── script.js       → Drag-drop functionality, hints, animations
+
+├── script.js       → Drag-drop functionality, hints, 
+
 └── README.docx     → This file
 
 Example Code Snippets
@@ -58,9 +62,13 @@ Random Example button:
 
 function randomExample() {
     let a = Math.floor(Math.random() * 8) + 2;
+    
     let b = Math.floor(Math.random() * 8) + 2;
+    
     document.getElementById('num1').value = a;
+    
     document.getElementById('num2').value = b;
+    
     buildRods();
 }
 
