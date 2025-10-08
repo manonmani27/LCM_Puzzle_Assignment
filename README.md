@@ -52,15 +52,21 @@ Example Code Snippets
 
 Dragging a correct block into Rod 3:
 if (selectedBlockValue === correctLCM) {
+
     rod3.appendChild(selectedBlock);
+    
     celebrate(); // Confetti & sound
+    
 } else {
+
     alert('❌ Not correct, try again!');
+    
 }
 
 Random Example button:
 
 function randomExample() {
+
     let a = Math.floor(Math.random() * 8) + 2;
     
     let b = Math.floor(Math.random() * 8) + 2;
