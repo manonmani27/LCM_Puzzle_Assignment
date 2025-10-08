@@ -78,6 +78,11 @@ function randomExample() {
     buildRods();
 }
 
+## 🎥 Interactive Demo
+Click the link below to watch a demo of the game in action:  
+
+[Watch the LCM Puzzle Video](lcm puzzle.mp4)  
+
 How to Use
 - Make sure index.html, style.css, and script.js are in the same folder.
 - Open index.html → start learning LCM interactively!
